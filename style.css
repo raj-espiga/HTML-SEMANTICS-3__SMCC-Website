@@ -1,0 +1,10 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    min-height: 5px;
+}
