@@ -20,6 +20,24 @@ body {
     overflow: hidden;
 }
 
+table {
+    border-radius: 5px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+}
+
+td {
+    text-align: center;
+    padding: 20px .625em .625em .625em;
+    border-bottom: 1px solid #f8f8f8;
+    text-align: left;
+    font-size: 13px;
+}
+
 header {
     background-color: rgb(0, 0, 200);
     padding: auto;
@@ -50,8 +68,6 @@ header p, #highlight nav{
     border-radius: 10px;
     padding: 5px 10px;
     margin-right: 30px;
-    color: black;
-    font-size: 16px;
     cursor: pointer;
 }
 
@@ -88,9 +104,87 @@ header p, #highlight nav{
     transform: translate(-50%, -50%);
 }
 
+h1#article-title {
+    font-size: 50px;
+    text-align: center;
+    border: 4px solid black;
+    background-color: white;
+    border-radius: 10px;
+}
+
 .vmgo {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+#ccis, #contacts {
+    background-color: #05053bf5;
+    border-radius: 15px;
+    padding: 20px;
+    width: 70%;
+    margin: 50px auto;
+    color: white;
+}
+
+#servicespanel {
+    background-color: #05053bf5;
+    border-radius: 15px;
+    padding: 20px;
+    width: 20%;
+    margin: 50px auto;
+    color: white;
+}
+
+ul#service li {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0;
+}
+
+#contacts a, #btn-back-to-top a {
+    color: white;
+}
+
+#contacts img {
+    vertical-align: middle;
+}
+
+footer {
+    background-color: rgb(0, 0, 200);
+    padding: auto;
+    min-height: 60px;
+    color: white;
+}
+
+footer p {
+    margin: 20px;
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+    border-radius: 100px;
+    height: 50px;   
+    width: 50px;
+    z-index: 99;
+    transition: bottom 0.5s ease;
+}
+  
+#btn-back-to-top:hover {
+    color: white;
+    border: 2px solid white;
+}
+
+footer img {
+    margin-left: 10px;
+    width: 80px;
+    border-radius: 10px;
+    vertical-align: middle;
+    border: 2px solid black;
 }
