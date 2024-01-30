@@ -40,6 +40,8 @@ td {
 
 header {
     background-color: #05053bf5;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
     padding: auto;
     min-height: 10px;
 }
@@ -153,6 +155,8 @@ ul#service li {
 
 footer {
     background-color: #05053bf5;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     padding: auto;
     min-height: 60px;
     color: white;
