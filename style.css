@@ -96,7 +96,7 @@ header p, #highlight nav{
     font-weight: bold;
 }
 
-.centervid {
+#centervid {
     position: absolute;
     margin: auto;
     top: 55%;
