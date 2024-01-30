@@ -39,7 +39,7 @@ td {
 }
 
 header {
-    background-color: rgb(0, 0, 200);
+    background-color: #05053bf5;
     padding: auto;
     min-height: 10px;
 }
@@ -152,7 +152,7 @@ ul#service li {
 }
 
 footer {
-    background-color: rgb(0, 0, 200);
+    background-color: #05053bf5;
     padding: auto;
     min-height: 60px;
     color: white;
