@@ -104,12 +104,21 @@ header p, #highlight nav{
     font-weight: bold;
 }
 
-#centervid {
+.youtube-embed {
+    position: relative;
+    height: 0;
+    margin-top: 20px;
+    padding-top: 60%;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.youtube-embed iframe { 
     position: absolute;
-    margin: auto;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 0;
+    left: 10%;
+    width: 80%;
+    height: 80%;
 }
 
 h1#article-title {
