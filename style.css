@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: hsl(0, 0%, 100%);
-    background-image: url("images/smccnasipit_bodycover.jpg");
+    background-image: url("images/output-onlinepngtools\ \(1\).png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -33,7 +33,7 @@ table {
     border-collapse: collapse;
     width: 100%;
     max-width: 100%;
-    white-space: nowrap;
+    white-space: wrap;
 }
 
 td {
@@ -49,13 +49,15 @@ header {
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     padding: auto;
-    min-height: 10px;
+    min-height: 60px;
+    color: white;
 }
 
 header h1 {
     font-family: 'Times New Roman', Times, serif;
     display: inline;
     font-weight: bolder;
+    padding: 10px;
     color: rgb(255, 255, 255);
 }
 
@@ -107,7 +109,7 @@ header p, #highlight nav{
 .youtube-embed {
     position: relative;
     height: 0;
-    margin-top: 20px;
+    margin-top: 10px;
     padding-top: 60%;
     overflow: hidden;
     max-width: 100%;
@@ -116,8 +118,7 @@ header p, #highlight nav{
 .youtube-embed iframe { 
     position: absolute;
     top: 0;
-    left: 10%;
-    width: 80%;
+    width: 100%;
     height: 80%;
 }
 
@@ -133,31 +134,16 @@ h1#article-title {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
 }
 
-#ccis, #contacts {
+#ccis, #servicespanel, #contacts {
     background-color: #05053bf5;
     border-radius: 15px;
     padding: 20px;
     width: 70%;
     margin: 50px auto;
     color: white;
-}
-
-#servicespanel {
-    background-color: #05053bf5;
-    border-radius: 15px;
-    padding: 20px;
-    width: 20%;
-    margin: 50px auto;
-    color: white;
-}
-
-ul#service li {
-    list-style-type: none; 
-    margin: 0; 
-    padding: 0;
 }
 
 #contacts a, #btn-back-to-top a {
