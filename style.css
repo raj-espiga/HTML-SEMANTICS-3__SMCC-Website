@@ -169,14 +169,14 @@ footer p {
 
 #btn-back-to-top {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 25px;
+    right: 0;
     background-color: #05053bf5;
     color: white;
     font-weight: bolder;
     border-radius: 100px;
-    height: 50px;   
-    width: 50px;
+    height: 55px;   
+    width: 55px;
     z-index: 99;
     transition: bottom 0.5s ease;
 }
